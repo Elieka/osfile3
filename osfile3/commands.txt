@@ -1,0 +1,11 @@
+prompt> echo abc ; &echo def;echo ghi
+abc
+def
+ghi
+prompt> &echo jkl
+Running: [1B] (bottom)
+---------------------------
+...
+prompt> ...
+jkl
+prompt> ...
